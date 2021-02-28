@@ -1,0 +1,63 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:black; 
+	width: 100%;
+    height: 100%;
+}
+#main{
+	margin: 0 auto;
+	width: 808px;
+	height:  808px;
+}
+#zunanji{
+	position:relative;
+	font-family: font;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+#cherry{
+	width:20px
+}
+#pac{
+	width:18px;
+}
+#levi{
+	position:absolute;
+	height:100%;
+}
+#center{
+	position:absolute;
+	left:538px;
+	margin:20px 9.5px;
+	height:100%;
+}
+#desni{
+	position:absolute;
+	right:0px;
+	height:100%;
+}
+#gumb{
+	border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family:'PressStart2P';
+    transition-duration: 0.4s;	
+	background-color: black; 
+	color: yellow; 
+}
+#gumb:hover{
+	background-color: yellow; 
+	color: black; 
+}
+@font-face{
+	font-family:'PressStart2P';
+	src:url('PressStart2P-Regular.ttf');
+}
